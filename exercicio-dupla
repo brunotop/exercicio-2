@@ -1,0 +1,5 @@
+let frase = prompt("digite um palindromo");
+let contra = (frase.split('').reverse().join(''));
+console.log(contra);
+let ver = contra.includes(frase);
+console.log(ver);
